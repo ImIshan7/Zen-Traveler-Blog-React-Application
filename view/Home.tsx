@@ -1,5 +1,6 @@
 import {Component} from "react";
 import './custom.css';
+import about from '../images/SIGIRIYA.jpg';
 export class Home extends Component {
     render() {
         return (
@@ -51,26 +52,47 @@ export class Home extends Component {
                                 <p className="text-sm sm:text-base text-gray-700 dark:text-white font-bold">
                                     I travel not to go anywhere, but to go. I travel for travel's sake the great affair is to move.
                                 </p>
-                                <div className="flex mt-8">
-                                    <a href="#" className="uppercase py-2 px-4 rounded-lg bg-pink-500 border-2 border-transparent text-white text-md mr-4 hover:bg-pink-400">
-                                        Get started
-                                    </a>
-                                    <a href="#" className="uppercase py-2 px-4 rounded-lg bg-transparent border-2 border-pink-500 text-pink-500 dark:text-white hover:bg-pink-500 hover:text-white text-md">
-                                        Read more
-                                    </a>
-                                </div>
+
                             </div>
                             <div className="hidden sm:block sm:w-1/3 lg:w-3/5 relative">
-{/*
-                                <img src="" className="max-w-xs md:max-w-sm m-auto"/>
-*/}
+
                             </div>
                         </div>
                     </div>
+
+                    <div className="sm:flex items-center max-w-screen bg-gray-800">
+                        <div className="sm:w-1/2 p-10">
+                            <div className="image object-center text-center">
+                                <img className="rounded-md" src={about}/>
+                            </div>
+                        </div>
+                        <div className="sm:w-1/2  pb-48">
+                            <div className=" text">
+                                <span className="text-white text-5xl font-bold">About us</span>
+                                <h2 className="my-4 font-bold text-3xl  sm:text-4xl ">About <span className="text-indigo-600">Zen Traveller</span>
+                                </h2>
+                                <p className="text-white font-medium text-lg">
+                                    Welcome to Zen Traveler, your sanctuary for exploration and enlightenment in the heart of Sri Lanka.
+                                    At Zen Traveler, we embark on a journey to unveil the unparalleled beauty and
+                                    cultural richness of this island paradise. Our mission is to guide you through
+                                    an immersive experience, connecting you with the essence of
+                                    Sri Lanka's most captivating destinations.
+                                </p>
+
+                                    <h2 className="my-4 font-bold text-3xl  sm:text-4xl ">Our <span className="text-indigo-600">Vision</span>
+                                    </h2>
+                                    <p className="text-white font-medium text-lg">
+                                        In a world where every journey is a story waiting to be told, Zen Traveler is your
+                                        storyteller, weaving tales of serenity and adventure. We believe in the
+                                        transformative power of travel, where every step unveils a new chapter
+                                        of self-discovery and connection.
+                                    </p>
+
+                            </div>
+                        </div>
+                    </div>
+
                 </main>
-
-
-
 
             </div>
 
