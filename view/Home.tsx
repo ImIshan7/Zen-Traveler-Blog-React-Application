@@ -1,6 +1,14 @@
 import {Component} from "react";
 import './custom.css';
 import about from '../images/SIGIRIYA.jpg';
+import polon from '../images/Polonnaruwa .jpg';
+import Anu from '../images/Anuradhapura.jpg';
+import Kandy from '../images/Kandy.jpg';
+import Galle from '../images/Galle.jpg';
+import Dambulla from '../images/dambulla.jpeg';
+import Sri from '../images/sripadaya.jpg';
+import Yala from '../images/yala.jpg';
+import Hot from '../images/hotainplace.jpg';
 export class Home extends Component {
     render() {
         return (
@@ -87,10 +95,256 @@ export class Home extends Component {
                                         transformative power of travel, where every step unveils a new chapter
                                         of self-discovery and connection.
                                     </p>
-
                             </div>
                         </div>
                     </div>
+
+
+                    <div className=" max-w-screen  px-2 bg-gray-800">
+
+                        <div className="flex justify-center text-5xl md:text-4xl font-bold mb-4 text-white">
+                            Destinations
+                        </div>
+
+                        <ul className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 p-2 xl:p-5">
+                            <li className="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-primary-400">
+
+                                <a className="relative" href="/tool/writey-ai">
+                                    <div className="relative w-full aspect-video">
+                                        <img className="rounded w-full h-full object-cover" src={about}/>
+
+                                            <div
+                                                className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-b from-gray-800 to-gray-500 text-white">
+                                                <h2 className="text-xl font-semibold">Sigiriya Rock</h2>
+                                                <p className="font-medium text-sm">Sri lanka</p>
+                                            </div>
+                                    </div>
+                                </a>
+
+                                <div className="flex flex-col justify-beetween pt-4 px-7 py-24">
+
+                                    <p className="text-black two-lines font-bold text-xl">
+                                        Also known as the Lion Rock, Sigiriya is an ancient rock fortress with a palace on its summit.
+                                        It's a UNESCO World Heritage Site and one of the most iconic landmarks in Sri Lanka.
+                                    </p>
+
+                                </div>
+
+                            </li>
+
+                            <li className="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-primary-400">
+                                <a className="relative" href="/tool/writemeai">
+                                    <div className="relative w-full aspect-video">
+                                        <img className="rounded w-full h-full object-cover" src={polon}/>
+
+                                            <div
+                                                className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-b from-gray-800 to-gray-500 text-white">
+                                                <h2 className="text-xl font-semibold">Polonnaruwa</h2>
+                                                <p className="font-medium text-sm">Polonnaruwa,Sri Lanka</p>
+                                            </div>
+                                    </div>
+                                </a>
+
+
+                                <div className="flex flex-col justify-beetween gap-3 pt-4 px-7 py-24">
+
+                                    <p className="text-black two-lines font-bold text-xl">
+                                        Another UNESCO World Heritage Site, Polonnaruwa is an ancient city with well-preserved ruins,
+                                        including impressive stone sculptures and the Quadrangle with its ancient
+                                        temples and royal palace.
+                                    </p>
+
+
+                                </div>
+
+                            </li>
+
+                            <li className="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-primary-400">
+                                <a className="relative" href="/tool/publer">
+                                    <div className="relative w-full aspect-video">
+                                        <img className="rounded w-full h-full object-cover" src={Anu}/>
+
+                                            <div
+                                                className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-b from-gray-800 to-gray-500 text-white">
+                                                <h2 className="text-xl font-semibold">Anuradhapura</h2>
+                                                <p className="font-medium text-sm">Anuradhapura, Sri Lanka</p>
+                                            </div>
+                                    </div>
+                                </a>
+
+
+                                <div className="flex flex-col justify-beetween gap-3 pt-4 px-7 py-24">
+
+                                    <p className="text-black two-lines font-bold text-xl">
+                                        One of the oldest continuously inhabited cities in the world,
+                                        Anuradhapura was the capital of ancient Sri Lanka.
+                                        It boasts ancient stupas, monasteries, and reservoirs,
+                                        making it a sacred pilgrimage site.
+                                    </p>
+
+
+                                </div>
+
+                            </li>
+
+                            <li className="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-primary-400">
+                                <a className="relative" href="/tool/anyword">
+                                    <div className="relative w-full aspect-video">
+                                        <img className="rounded w-full h-full object-cover" src={Kandy}/>
+
+                                            <div
+                                                className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-b from-gray-800 to-gray-500 text-white">
+                                                <h2 className="text-xl font-semibold">Temple of the Tooth</h2>
+                                                <p className="font-medium text-sm">Kandy, Sri Lanka</p>
+                                            </div>
+                                    </div>
+                                </a>
+
+
+                                <div className="flex flex-col justify-beetween gap-3 pt-4 px-7 py-24">
+                                    <p className="text-black two-lines font-bold text-xl">
+                                        Kandy is known for the Temple of the Tooth Relic (Sri Dalada Maligawa),
+                                        which houses the sacred tooth relic of the Buddha.
+                                        The city is a cultural hub and a UNESCO World Heritage Site.
+                                    </p>
+
+
+                                </div>
+
+                            </li>
+
+                            <li className="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-primary-400">
+
+                                <a className="relative" href="/tool/blogseo-ai">
+                                    <div className="relative w-full aspect-video">
+                                        <img className="rounded w-full h-full object-cover" src={Galle}/>
+                                        <div
+                                                className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-b from-gray-800 to-gray-500 text-white">
+                                                <h2 className="text-xl font-semibold">Galle Fort</h2>
+                                                <p className="font-medium text-sm">Galle,Sri Lanka</p>
+                                            </div>
+                                    </div>
+                                </a>
+
+
+                                <div className="flex flex-col justify-beetween gap-3 pt-4 px-7 py-24">
+                                    <p className="text-black two-lines font-bold text-xl">
+                                        A well-preserved colonial-era fort, Galle Fort is a UNESCO World Heritage Site
+                                        located in the coastal city of Galle. It features charming cobblestone streets,
+                                        Dutch-colonial architecture, and a historic lighthouse.
+                                    </p>
+
+
+                                </div>
+                            </li>
+
+                            <li className="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-primary-400">
+
+                                <a className="relative" href="/tool/typewise">
+                                    <div className="relative w-full aspect-video">
+                                        <img className="rounded w-full h-full object-cover" src={Dambulla}/>
+
+                                            <div
+                                                className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-b from-gray-800 to-gray-500 text-white">
+                                                <h2 className="text-xl font-semibold">Dambulla Cave Temple</h2>
+                                                <p className="font-medium text-sm">Dambulla, Sri Lanka</p>
+                                            </div>
+                                    </div>
+                                </a>
+
+
+                                <div className="flex flex-col justify-beetween gap-3 pt-4 px-7 py-24">
+                                    <p className="text-black two-lines font-bold text-xl">
+                                        Also known as the Golden Temple of Dambulla, this cave complex is a UNESCO World
+                                        Heritage Site and houses a vast collection of Buddha statues and murals.
+                                    </p>
+
+                                </div>
+
+                            </li>
+
+                            <li className="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-primary-400">
+
+                                <a className="relative" href="/tool/blogseo-ai">
+                                    <div className="relative w-full aspect-video">
+                                        <img className="rounded w-full h-full object-cover" src={Sri}/>
+                                        <div
+                                            className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-b from-gray-800 to-gray-500 text-white">
+                                            <h2 className="text-xl font-semibold">Adam's Peak (Sri Pada)</h2>
+                                            <p className="font-medium text-sm">Ratnapura ,Sri Lanka</p>
+                                        </div>
+                                    </div>
+                                </a>
+
+
+                                <div className="flex flex-col justify-beetween gap-3 pt-4 px-7 py-24">
+                                    <p className="text-black two-lines font-bold text-xl">
+                                        A sacred mountain, Adam's Peak is known for the "Sri Pada" or "Sacred Footprint,"
+                                        believed by different religious groups to be the footprint of Buddha, Shiva, or Adam,
+                                        depending on the faith.
+                                    </p>
+
+
+                                </div>
+                            </li>
+
+                            <li className="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-primary-400">
+
+                                <a className="relative" href="/tool/blogseo-ai">
+                                    <div className="relative w-full aspect-video">
+                                        <img className="rounded w-full h-full object-cover" src={Yala}/>
+                                        <div
+                                            className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-b from-gray-800 to-gray-500 text-white">
+                                            <h2 className="text-xl font-semibold">Yala National Park</h2>
+                                            <p className="font-medium text-sm">Hambantota,Sri Lanka</p>
+                                        </div>
+                                    </div>
+                                </a>
+
+
+                                <div className="flex flex-col justify-beetween gap-3 pt-4 px-7 py-24">
+                                    <p className="text-black two-lines font-bold text-xl">
+                                        While not a historic site, Yala National Park is famous for its rich biodiversity
+                                        and is one of the best places in Sri Lanka for wildlife enthusiasts.
+                                        It's home to a variety of animals, including leopards, elephants,
+                                        and numerous bird species.
+                                    </p>
+
+
+                                </div>
+                            </li>
+
+                            <li className="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-primary-400">
+
+                                <a className="relative" href="/tool/blogseo-ai">
+                                    <div className="relative w-full aspect-video">
+                                        <img className="rounded w-full h-full object-cover" src={Hot}/>
+                                        <div
+                                            className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-b from-gray-800 to-gray-500 text-white">
+                                            <h2 className="text-xl font-semibold">Horton Plains National Park</h2>
+                                            <p className="font-medium text-sm">Nuwara Eliya,Sri Lanka</p>
+                                        </div>
+                                    </div>
+                                </a>
+
+
+                                <div className="flex flex-col justify-beetween gap-3 pt-4 px-7 py-24">
+                                    <p className="text-black two-lines font-bold text-xl">
+                                        Home to the famous World's End, a sheer cliff with a breathtaking drop,
+                                        Horton Plains is a picturesque destination with a diverse
+                                        ecosystem and stunning landscapes.
+                                    </p>
+
+
+                                </div>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+
+
 
                 </main>
 
