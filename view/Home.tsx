@@ -9,6 +9,15 @@ import Dambulla from '../images/dambulla.jpeg';
 import Sri from '../images/sripadaya.jpg';
 import Yala from '../images/yala.jpg';
 import Hot from '../images/hotainplace.jpg';
+import unawatuna from '../images/beach/unawatuna.jpg';
+import mirissa from '../images/beach/mirissa.jpg';
+import benthota from '../images/beach/benthota.jpg';
+import arugambay from '../images/beach/ArugamBay.jpg';
+import trinco from '../images/beach/trinco.jpg';
+import hikkaduwa from '../images/beach/hikkaduwa.jpg';
+import pasikudah from '../images/beach/Pasikudah.jpg';
+import tangalle from '../images/beach/tangalle.jpg';
+import negambo from '../images/beach/negambo.jpg';
 export class Home extends Component {
     render() {
         return (
@@ -344,6 +353,238 @@ export class Home extends Component {
                     </div>
 
 
+                    <div className="max-w-screen bg-gray-800">
+
+                        <div className="flex justify-center text-4xl md:text-4xl font-bold text-white pt-3">
+                           Best Beach Side In Sri Lanka
+                        </div>
+
+                        <ul className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 p-2 xl:p-5">
+
+                            <li className="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-teal-400">
+
+                                <a className="relative" href="/tool/writey-ai">
+                                    <img className="rounded relative w-full object-cover aspect-video" src={unawatuna}/>
+                                </a>
+
+
+                                <div className="flex flex-col justify-beetween gap-3 px-4 py-2">
+                                    <a href="/tool/writey-ai"
+                                       className="flex justify-center items-center text-xl font-semibold text-teal-700 hover:text-teal-400 two-lines text-ellipsis">
+                                        <span>Unawatuna Beach</span>
+
+                                    </a>
+
+                                    <p className="flex flex-col justify-beetween gap-3 pt-4 px-7 py-24 text-black font-semibold">
+                                        Located near Galle, Unawatuna is a picturesque crescent-shaped beach known
+                                        for its clear waters and coral reefs. It's a popular spot for swimming and snorkeling.
+                                    </p>
+
+
+                                </div>
+
+                            </li>
+
+                            <li className="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-teal-400">
+
+                                <a className="relative" href="/tool/writemeai">
+                                    <img className="rounded relative w-full object-cover aspect-video" src={mirissa}/>
+                                </a>
+
+
+                                <div className="flex flex-col justify-beetween gap-3 px-4 py-2">
+                                    <a href="/tool/writemeai"
+                                       className="flex justify-center items-center text-xl font-semibold text-teal-700 hover:text-teal-800 two-lines text-ellipsis">
+                                        <span>Mirissa Beach</span>
+
+                                    </a>
+
+                                    <p className="flex flex-col justify-beetween gap-3 pt-4 px-7 py-24 text-black font-semibold">
+                                        Mirissa, situated on the southern coast, is renowned for its laid-back
+                                        atmosphere and beautiful sunsets. It's a great place for whale watching and
+                                        has a vibrant nightlife scene.
+                                    </p>
+
+
+                                </div>
+
+                            </li>
+
+                            <li className="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-teal-400">
+
+                                <a className="relative" href="/tool/publer">
+                                    <img className="rounded relative w-full object-cover aspect-video" src={benthota}/>
+                                </a>
+
+
+                                <div className="flex flex-col justify-beetween gap-3 px-4 py-2">
+                                    <a href="/tool/publer"
+                                       className="flex justify-center items-center text-xl font-semibold text-teal-700 hover:text-teal-800 two-lines text-ellipsis">
+                                        <span>Bentota Beach</span>
+
+
+                                    </a>
+
+                                    <p className="flex flex-col justify-beetween gap-3 pt-4 px-7 py-24 text-black font-semibold">
+                                        Bentota is a coastal town with a long stretch of golden beach. It's a popular
+                                        destination for water sports such as jet-skiing, windsurfing,
+                                        and boat rides along the Bentota River.
+                                    </p>
+
+
+                                </div>
+
+                            </li>
+
+                            <li className="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-teal-400">
+
+                                <a className="relative" href="/tool/anyword">
+                                    <img className="rounded relative w-full object-cover aspect-video" src={arugambay}/>
+
+                                </a>
+
+
+                                <div className="flex flex-col justify-beetween gap-3 px-4 py-2">
+                                    <a href="/tool/anyword"
+                                       className="flex justify-center items-center text-xl font-semibold text-teal-700 hover:text-teal-800 two-lines text-ellipsis">
+                                        <span>Arugam Bay</span>
+
+                                    </a>
+
+                                    <p className="flex flex-col justify-beetween gap-3 pt-4 px-7 py-24 text-black font-semibold">
+                                        Located on the east coast, Arugam Bay is a haven for surfers. It has a relaxed
+                                        atmosphere, and the waves are ideal for both beginners and experienced surfers.
+                                    </p>
+
+
+                                </div>
+
+                            </li>
+
+                            <li className="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-teal-400">
+
+                                <a className="relative" href="/tool/blogseo-ai">
+
+                                    <img className="rounded relative w-full object-cover aspect-video" src={trinco}/>
+                                </a>
+
+
+                                <div className="flex flex-col justify-beetween gap-3 px-4 py-2">
+                                    <a href="/tool/blogseo-ai"
+                                       className="flex justify-center items-center text-xl font-semibold text-teal-700 hover:text-teal-800 two-lines text-ellipsis">
+                                        <span>Trincomalee Beach</span>
+
+                                    </a>
+
+                                    <p className="flex flex-col justify-beetween gap-3 pt-4 px-7 py-24 text-black font-semibold">
+                                        Trincomalee, on the northeast coast, boasts pristine beaches like Uppuveli and Nilaveli.
+                                        These areas are known for their white sandy beaches and crystal-clear waters.
+                                    </p>
+
+
+                                </div>
+
+                            </li>
+
+                            <li className="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-teal-400">
+
+                                <a className="relative" href="/tool/typewise">
+
+                                    <img className="rounded relative w-full object-cover aspect-video" src={hikkaduwa}/>
+                                </a>
+
+                                <div className="flex flex-col justify-beetween gap-3 px-4 py-2">
+                                    <a href="/tool/typewise"
+                                       className="flex justify-center items-center text-xl font-semibold text-teal-700 hover:text-teal-800 two-lines text-ellipsis">
+                                        <span>Hikkaduwa Beach</span>
+
+
+                                    </a>
+
+                                    <p className="flex flex-col justify-beetween gap-3 pt-4 px-7 py-24 text-black font-semibold">
+                                        Hikkaduwa, on the southwest coast, is famous for its coral sanctuary and vibrant marine life.
+                                        It's a popular spot for snorkeling and diving.
+                                    </p>
+
+                                </div>
+
+                            </li>
+
+                            <li className="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-teal-400">
+
+                                <a className="relative" href="/tool/typewise">
+
+                                    <img className="rounded relative w-full object-cover aspect-video" src={pasikudah}/>
+                                </a>
+
+                                <div className="flex flex-col justify-beetween gap-3 px-4 py-2">
+                                    <a href="/tool/typewise"
+                                       className="flex justify-center items-center text-xl font-semibold text-teal-700 hover:text-teal-800 two-lines text-ellipsis">
+                                        <span>Pasikudah Beach</span>
+
+
+                                    </a>
+
+                                    <p className="flex flex-col justify-beetween gap-3 pt-4 px-7 py-24 text-black font-semibold">
+                                        Pasikudah, on the east coast, is renowned for its shallow waters and is considered one of the
+                                        safest beaches in the world. It's perfect for swimming and relaxing.
+                                    </p>
+
+                                </div>
+
+                            </li>
+                            <li className="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-teal-400">
+
+                                <a className="relative" href="/tool/typewise">
+                                    <img className="rounded relative w-full object-cover aspect-video" src={tangalle}/>
+                                </a>
+
+                                <div className="flex flex-col justify-beetween gap-3 px-4 py-2">
+                                    <a href="/tool/typewise"
+                                       className="flex justify-center items-center text-xl font-semibold text-teal-700 hover:text-teal-800 two-lines text-ellipsis">
+                                        <span>Tangalle Beach</span>
+
+
+                                    </a>
+
+                                    <p className="flex flex-col justify-beetween gap-3 pt-4 px-7 py-24 text-black font-semibold">
+                                        Tangalle offers a series of beautiful beaches with golden sands and coconut palm-fringed shores.
+                                        Medaketiya and Goyambokka are particularly scenic.
+                                    </p>
+
+                                </div>
+
+                            </li>
+
+                            <li className="relative bg-white flex flex-col justify-between border rounded shadow-md hover:shadow-teal-400">
+
+                                <a className="relative" href="/tool/typewise">
+                                    <img className="rounded relative w-full object-cover aspect-video" src={negambo}/>
+
+
+                                </a>
+
+                                <div className="flex flex-col justify-beetween gap-3 px-4 py-2">
+                                    <a href="/tool/typewise"
+                                       className="flex justify-center items-center text-xl font-semibold text-teal-700 hover:text-teal-800 two-lines text-ellipsis">
+                                        <span>Negombo Beach</span>
+
+
+                                    </a>
+
+                                    <p className="flex flex-col justify-beetween gap-3 pt-4 px-7 py-24 text-black font-semibold">
+                                        Close to the Bandaranaike International Airport, Negombo Beach is a convenient
+                                        spot for those arriving or departing. It has a lively atmosphere with seafood markets
+                                        and vibrant nightlife.
+                                    </p>
+
+                                </div>
+
+                            </li>
+
+                        </ul>
+
+                    </div>
 
 
                 </main>
