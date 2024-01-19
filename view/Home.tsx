@@ -1,14 +1,14 @@
 import {Component} from "react";
 import './custom.css';
-import about from '../images/SIGIRIYA.jpg';
-import polon from '../images/Polonnaruwa .jpg';
-import Anu from '../images/Anuradhapura.jpg';
-import Kandy from '../images/Kandy.jpg';
-import Galle from '../images/Galle.jpg';
-import Dambulla from '../images/dambulla.jpeg';
-import Sri from '../images/sripadaya.jpg';
-import Yala from '../images/yala.jpg';
-import Hot from '../images/hotainplace.jpg';
+import about from '../images/location/SIGIRIYA.jpg';
+import polon from '../images/location/Polonnaruwa .jpg';
+import Anu from '../images/location/Anuradhapura.jpg';
+import Kandy from '../images/location/Kandy.jpg';
+import Galle from '../images/location/Galle.jpg';
+import Dambulla from '../images/location/dambulla.jpeg';
+import Sri from '../images/location/sripadaya.jpg';
+import Yala from '../images/location/yala.jpg';
+import Hot from '../images/location/hotainplace.jpg';
 import unawatuna from '../images/beach/unawatuna.jpg';
 import mirissa from '../images/beach/mirissa.jpg';
 import benthota from '../images/beach/benthota.jpg';
@@ -676,12 +676,43 @@ export class Home extends Component {
 
                                     <span className="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Horton Plains</span>
                                 </a>
-
-
                             </div>
                         </div>
                     </div>
+                    <div className="flex justify-center bg-white dark:bg-gray-800 max-w-screen pt-20">
+                        <div className="rounded-lg shadow-lg bg-white max-w-screen">
 
+                            <a href="https://www.youtube.com/watch?v=lFK5CVPHx6Y&ab_channel=BeforeYouGo" target="_blank" rel="noopener noreferrer">
+                                <div className="video-container">
+                                    <iframe
+                                        width="560"
+                                        height="315"
+                                        src="https://www.youtube.com/embed/lFK5CVPHx6Y"
+                                        title="YouTube Video"
+                                        frameBorder="0"
+                                        allowFullScreen
+                                    ></iframe>
+                                </div>
+                            </a>
+
+
+
+                            <div className="p-6 bg-gray-800">
+                                <h5 className="text-yellow-400 text-3xl font-extrabold mb-2">#Visit Sri Lanka</h5>
+                                <p className="text-white text-xl font-medium mb-4">
+                                    Embark on an enchanting journey to Sri Lanka, where captivating landscapes, rich
+                                    cultural heritage, and warm hospitality await. From the golden beaches along the
+                                    pristine coastline to the lush tea plantations nestled in the central highlands,
+                                    Sri Lanka offers a diverse tapestry of experiences. Explore ancient temples and
+                                    historical sites that narrate tales of a glorious past, witness wildlife in their
+                                    natural habitat, and savor the exotic flavors of local cuisine. Immerse yourself
+                                    in the vibrant markets, vibrant festivals, and the welcoming smiles of the locals.
+                                    A visit to Sri Lanka is a harmonious blend of serenity, adventure,
+                                    and cultural discovery.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
                 </main>
 
