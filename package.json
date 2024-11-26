@@ -1,5 +1,5 @@
 {
-  "name": "Zen-Traveler-Blog-React-Application",
+  "name": "Zen-Traveler-Blog",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -30,7 +30,13 @@
     "tsparticles": "^2.12.0",
     "typescript": "^4.9.5",
     "typewriter-effect": "^2.21.0",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "framer-motion": "^11.0.8",
+    "react-icons": "^5.0.1",
+    "@tailwindcss/typography": "^0.5.10",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "swiper": "^11.0.6",
+    "react-parallax": "^3.5.1"
   },
   "scripts": {
     "start": "react-scripts start",
