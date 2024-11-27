@@ -11,6 +11,8 @@ import SriLanka from './pages/SriLanka';
 import Japan from './pages/Japan';
 import Nepal from './pages/Nepal';
 import Bali from './pages/Bali';
+import Maldives from './pages/Maldives';
+import Thailand from './pages/Thailand';
 
 function App() {
     return (
@@ -25,6 +27,8 @@ function App() {
                         <Route path="/destinations/japan" element={<Japan />} />
                         <Route path="/destinations/nepal" element={<Nepal />} />
                         <Route path="/destinations/bali" element={<Bali />} />
+                        <Route path="/destinations/maldives" element={<Maldives />} />
+                        <Route path="/destinations/thailand" element={<Thailand />} />
                         <Route path="/blog" element={<Blog />} />
                         <Route path="/gallery" element={<Gallery />} />
                         <Route path="/about" element={<About />} />
