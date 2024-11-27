@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom';
 import srilanka from '../images/location/SriLanka.png';
 import japan from '../images/location/Japan.png';
 import nepal from '../images/location/Nepal.png';
-
+import bali from '../images/location/Bali.png';
+import maldives from '../images/location/Maldives.png';
+import thailand from '../images/location/Thailand.png';
 const Destinations = () => {
     return (
         <div className="pt-16">
@@ -83,8 +85,22 @@ const destinations = [
         id: 'bali',
         name: 'Bali',
         description: 'Sacred temples, rice terraces, and spiritual sanctuaries',
-        image: '/images/bali.jpg',
+        image: bali,
         link: '/destinations/bali'
+    },
+    {
+        id: 'maldives',
+        name: 'Maldives',
+        description: 'Paradise islands with crystal clear waters and marine life',
+        image: maldives,
+        link: '/destinations/maldives'
+    },
+    {
+        id: 'thailand',
+        name: 'Thailand',
+        description: 'Ancient temples, tropical beaches, and vibrant culture',
+        image: thailand,
+        link: '/destinations/thailand'
     }
 ];
 
