@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Zen-Traveler-Blog-React-Application/static/css/main.f4bc88fe.css",
+    "main.js": "/Zen-Traveler-Blog-React-Application/static/js/main.bc6f6a68.js",
+    "static/js/453.1d6e1473.chunk.js": "/Zen-Traveler-Blog-React-Application/static/js/453.1d6e1473.chunk.js",
+    "static/media/Bali.png": "/Zen-Traveler-Blog-React-Application/static/media/Bali.a90fddaa40d33b348921.png",
+    "static/media/SriLanka.png": "/Zen-Traveler-Blog-React-Application/static/media/SriLanka.7bf1a81346041ef260ff.png",
+    "static/media/Japan.png": "/Zen-Traveler-Blog-React-Application/static/media/Japan.ec1637850984a92848e1.png",
+    "static/media/Maldives.png": "/Zen-Traveler-Blog-React-Application/static/media/Maldives.aff7a7c5188dfa04c60e.png",
+    "static/media/Nepal.png": "/Zen-Traveler-Blog-React-Application/static/media/Nepal.a817420539134356f71c.png",
+    "static/media/ninearach.png": "/Zen-Traveler-Blog-React-Application/static/media/ninearach.801ac4e30c666245d0da.png",
+    "static/media/Thailand.png": "/Zen-Traveler-Blog-React-Application/static/media/Thailand.54f78d8715f398c1903e.png",
+    "static/media/Pasikudah.jpg": "/Zen-Traveler-Blog-React-Application/static/media/Pasikudah.ea1222fafe2153a50c77.jpg",
+    "static/media/unawatuna.jpg": "/Zen-Traveler-Blog-React-Application/static/media/unawatuna.dc063cfcfc6ca1566f1e.jpg",
+    "static/media/ella.jpg": "/Zen-Traveler-Blog-React-Application/static/media/ella.6a3cd0bcd417d76e7fea.jpg",
+    "static/media/Galle.jpg": "/Zen-Traveler-Blog-React-Application/static/media/Galle.aba7d111c9507e81f2ea.jpg",
+    "static/media/Kandy.jpg": "/Zen-Traveler-Blog-React-Application/static/media/Kandy.b0eda4f46d77893a3cb0.jpg",
+    "static/media/SIGIRIYA.jpg": "/Zen-Traveler-Blog-React-Application/static/media/SIGIRIYA.93734080bc61a2f6510f.jpg",
+    "static/media/yala.jpg": "/Zen-Traveler-Blog-React-Application/static/media/yala.d9f56e6c7ece12fa1aee.jpg",
+    "index.html": "/Zen-Traveler-Blog-React-Application/index.html",
+    "main.f4bc88fe.css.map": "/Zen-Traveler-Blog-React-Application/static/css/main.f4bc88fe.css.map",
+    "main.bc6f6a68.js.map": "/Zen-Traveler-Blog-React-Application/static/js/main.bc6f6a68.js.map",
+    "453.1d6e1473.chunk.js.map": "/Zen-Traveler-Blog-React-Application/static/js/453.1d6e1473.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4bc88fe.css",
+    "static/js/main.bc6f6a68.js"
+  ]
+}
