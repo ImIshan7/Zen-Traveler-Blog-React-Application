@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { FaFacebook, FaTwitter, FaInstagram, FaPinterest, FaHeart, FaMapMarkerAlt, FaEnvelope, FaPhone } from 'react-icons/fa';
+import Newsletter from "./home/Newsletter.jsx";
 
 const Footer = () => {
     const containerVariants = {
@@ -26,34 +27,7 @@ const Footer = () => {
     return (
         <footer className="bg-zen-dark text-white">
             {/* Newsletter Section */}
-            <div className="bg-zen-primary/20 backdrop-blur-md">
-                <div className="max-w-7xl mx-auto px-4 py-16">
-                    <motion.div
-                        initial="hidden"
-                        whileInView="visible"
-                        viewport={{ once: true }}
-                        variants={containerVariants}
-                        className="text-center"
-                    >
-                        <motion.h3 variants={itemVariants} className="text-3xl font-serif mb-4">
-                            Join Our Newsletter
-                        </motion.h3>
-                        <motion.p variants={itemVariants} className="text-gray-300 mb-8">
-                            Get inspired with our latest travel stories and tips
-                        </motion.p>
-                        <motion.form variants={itemVariants} className="max-w-md mx-auto flex gap-4">
-                            <input
-                                type="email"
-                                placeholder="Enter your email"
-                                className="flex-1 px-6 py-3 rounded-full bg-white/10 border border-white/20 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-zen-secondary"
-                            />
-                            <button className="btn btn-accent">
-                                Subscribe
-                            </button>
-                        </motion.form>
-                    </motion.div>
-                </div>
-            </div>
+            <Newsletter/>
 
             {/* Main Footer Content */}
             <div className="max-w-7xl mx-auto px-4 py-16">
