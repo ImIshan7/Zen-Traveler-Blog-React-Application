@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Zen-Traveler-Blog-React-Application/static/css/main.f4bc88fe.css",
-    "main.js": "/Zen-Traveler-Blog-React-Application/static/js/main.bc6f6a68.js",
-    "static/js/453.1d6e1473.chunk.js": "/Zen-Traveler-Blog-React-Application/static/js/453.1d6e1473.chunk.js",
+    "main.js": "/Zen-Traveler-Blog-React-Application/static/js/main.2402a0f7.js",
+    "static/js/453.8a5518e5.chunk.js": "/Zen-Traveler-Blog-React-Application/static/js/453.8a5518e5.chunk.js",
     "static/media/Bali.png": "/Zen-Traveler-Blog-React-Application/static/media/Bali.a90fddaa40d33b348921.png",
     "static/media/SriLanka.png": "/Zen-Traveler-Blog-React-Application/static/media/SriLanka.7bf1a81346041ef260ff.png",
     "static/media/Japan.png": "/Zen-Traveler-Blog-React-Application/static/media/Japan.ec1637850984a92848e1.png",
@@ -19,11 +19,11 @@
     "static/media/yala.jpg": "/Zen-Traveler-Blog-React-Application/static/media/yala.d9f56e6c7ece12fa1aee.jpg",
     "index.html": "/Zen-Traveler-Blog-React-Application/index.html",
     "main.f4bc88fe.css.map": "/Zen-Traveler-Blog-React-Application/static/css/main.f4bc88fe.css.map",
-    "main.bc6f6a68.js.map": "/Zen-Traveler-Blog-React-Application/static/js/main.bc6f6a68.js.map",
-    "453.1d6e1473.chunk.js.map": "/Zen-Traveler-Blog-React-Application/static/js/453.1d6e1473.chunk.js.map"
+    "main.2402a0f7.js.map": "/Zen-Traveler-Blog-React-Application/static/js/main.2402a0f7.js.map",
+    "453.8a5518e5.chunk.js.map": "/Zen-Traveler-Blog-React-Application/static/js/453.8a5518e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f4bc88fe.css",
-    "static/js/main.bc6f6a68.js"
+    "static/js/main.2402a0f7.js"
   ]
 }
